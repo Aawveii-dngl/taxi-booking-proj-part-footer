@@ -1,7 +1,13 @@
+.footer {
+  background-image: url("../Image/footer_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 /* .footer > .footer-container >  */
 .footer-container {
   color: white;
-  background-color: #545454;
+  text-align: center;
 }
 .top-footer-container {
   display: grid;
@@ -10,7 +16,7 @@
   margin-left: 4rem;
   margin-right: 4rem;
   margin-bottom: 2rem;
-  text-align: start;
+  text-align: justify;
 }
 .bottom-footer-container {
   display: grid;
@@ -25,6 +31,7 @@
   display: flex;
   justify-content: flex-end;
 }
+
 @media (max-width: 600px) {
   .top-footer-container {
     grid-template-columns: 1fr;
